@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><loginIpRanges>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><loginIpRanges>
         <endAddress>80.5.216.255</endAddress>
         <startAddress>80.5.216.1</startAddress>
-    </loginIpRanges><userLicense>Salesforce</userLicense><applicationVisibilities>
+    </loginIpRanges><userLicense>Salesforce</userLicense><applicationVisibilities xmlns="http://soap.sforce.com/2006/04/metadata">
         <application>Charitable</application>
         <default>false</default>
         <visible>false</visible>
@@ -1092,6 +1092,10 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Trail__c.Last_Inspection_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Checkbox__c</field>
         <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
