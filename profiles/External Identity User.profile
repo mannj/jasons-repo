@@ -1,7 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><loginIpRanges>
-        <endAddress>80.5.216.255</endAddress>
-        <startAddress>80.5.216.1</startAddress>
-    </loginIpRanges><userLicense>External Identity</userLicense><applicationVisibilities>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>External Identity</userLicense><applicationVisibilities>
         <application>Charitable</application>
         <default>false</default>
         <visible>false</visible>
@@ -1221,40 +1218,4 @@
     </tabVisibilities><tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities><userPermissions>
-        <enabled>true</enabled>
-        <name>AddDirectMessageMembers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>AllowUniversalSearch</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>AssignTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterOwnGroups</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>IdentityEnabled</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>RemoveDirectMessageMembers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>WorkDotComUserPerm</name>
-    </userPermissions></Profile>
+    </tabVisibilities></Profile>

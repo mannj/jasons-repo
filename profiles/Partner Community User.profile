@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Partner Community</userLicense><applicationVisibilities>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Partner Community</userLicense><applicationVisibilities>
         <application>Charitable</application>
         <default>false</default>
         <visible>false</visible>
@@ -903,10 +903,6 @@
         <field>Quote.Description</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
-        <editable>false</editable>
-        <field>Quote.Discount</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Quote.Email</field>
         <readable>true</readable>
@@ -1025,6 +1021,10 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Task.WhoId</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Discount</field>
         <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
@@ -1226,61 +1226,4 @@
     </tabVisibilities><tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities><userPermissions>
-        <enabled>true</enabled>
-        <name>AddDirectMessageMembers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>AllowUniversalSearch</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>AssignTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterOwnGroups</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ContentWorkspaces</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ConvertLeads</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>CreateTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditOppLineItemUnitPrice</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditTask</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>RemoveDirectMessageMembers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>RunFlow</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>RunReports</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>WorkDotComUserPerm</name>
-    </userPermissions></Profile>
+    </tabVisibilities></Profile>

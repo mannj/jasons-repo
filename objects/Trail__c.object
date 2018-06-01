@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
     </actionOverrides><actionOverrides>
@@ -53,7 +53,7 @@
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Date</type>
-    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableChangeDataCapture>false</enableChangeDataCapture><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>false</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ReadWrite</externalSharingModel><label>Trail</label><nameField>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableChangeDataCapture>false</enableChangeDataCapture><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>false</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Trail</label><nameField>
         <label>Trail Name</label>
         <type>Text</type>
     </nameField><pluralLabel>Trails</pluralLabel><searchLayouts /><sharingModel>ReadWrite</sharingModel><visibility>Public</visibility></CustomObject>

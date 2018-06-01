@@ -370,7 +370,7 @@
         <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
-    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><enableHistory>true</enableHistory><externalSharingModel>ReadWrite</externalSharingModel><recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><enableHistory>true</enableHistory><recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
@@ -1280,10 +1280,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Demo 12</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Demo new picklist item</fullName>
                 <default>false</default>
             </values>
@@ -1492,10 +1488,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Item for demo</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>LeadCountry</fullName>
                 <default>false</default>
             </values>
@@ -1521,22 +1513,6 @@
             </values>
             <values>
                 <fullName>New PickLists</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New change 2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New demo</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New demo item</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New demo item 2</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1569,10 +1545,6 @@
             </values>
             <values>
                 <fullName>Newdemo iten1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1688,10 +1660,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>a picklist value</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>aeraetaeytayt</fullName>
                 <default>false</default>
             </values>
@@ -1708,15 +1676,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>cbzbcvs</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>detasasetzdt</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>dvzvzvz</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1733,10 +1693,6 @@
             </values>
             <values>
                 <fullName>new picdghag</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>new picklist</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2002,21 +1958,6 @@
             </values>
             <values>
                 <fullName>Technology Partner</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>UpsellOpportunity__c</picklist>
-            <values>
-                <fullName>Maybe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yes</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

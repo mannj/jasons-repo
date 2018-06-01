@@ -68,6 +68,12 @@
         <reverseRole>Sub Contractor</reverseRole>
     </standardValue>
     <standardValue>
+        <fullName>Dealer</fullName>
+        <default>false</default>
+        <label>Dealer</label>
+        <reverseRole>Supplier</reverseRole>
+    </standardValue>
+    <standardValue>
         <fullName>Consultant</fullName>
         <default>false</default>
         <label>Consultant</label>

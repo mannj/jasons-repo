@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><description>Marketing custom description for Gearset</description><userLicense>Salesforce</userLicense><applicationVisibilities>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><userLicense>Salesforce</userLicense><applicationVisibilities>
         <application>Charitable</application>
         <default>false</default>
         <visible>false</visible>
@@ -927,10 +927,6 @@
         <field>Quote.Description</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
-        <editable>false</editable>
-        <field>Quote.Discount</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Quote.Email</field>
         <readable>true</readable>
@@ -1073,6 +1069,10 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.NewFieldName__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Discount</field>
         <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
@@ -1261,14 +1261,6 @@
         <object>Solution</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions><recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Account.NewRecord</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities><recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Account.Test</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities><recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
@@ -1279,6 +1271,14 @@
     </recordTypeVisibilities><recordTypeVisibilities>
         <default>true</default>
         <recordType>Metric.Progress</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities><recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Test</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities><recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.NewRecord</recordType>
         <visible>true</visible>
     </recordTypeVisibilities><tabVisibilities>
         <tab>Candidate__c</tab>
@@ -1364,112 +1364,4 @@
     </tabVisibilities><tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities><userPermissions>
-        <enabled>true</enabled>
-        <name>AllowViewKnowledge</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ApexRestServices</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ApiEnabled</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>AssignTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterForSharePoint</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInternalUser</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInviteExternalUsers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterOwnGroups</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ConvertLeads</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeFilters</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeReports</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>CreateTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>DistributeFromPersWksp</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditEvent</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditOppLineItemUnitPrice</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditTask</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EmailMass</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EmailSingle</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ExportReport</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ImportPersonal</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>LightningConsoleAllowedForUser</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ManageEncryptionKeys</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>RunReports</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SendSitRequests</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SubmitMacrosAllowed</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeToLightningReports</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewEventLogFiles</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewHelpLink</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewRoles</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewSetup</name>
-    </userPermissions></Profile>
+    </tabVisibilities></Profile>

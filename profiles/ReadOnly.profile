@@ -596,10 +596,6 @@
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
-        <field>Fundraiser__c.UWEXTEST__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>false</editable>
         <field>Idea.Status</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
@@ -951,10 +947,6 @@
         <field>Quote.Description</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
-        <editable>false</editable>
-        <field>Quote.Discount</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Quote.Email</field>
         <readable>true</readable>
@@ -1097,6 +1089,14 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.NewFieldName__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Fundraiser__c.UWEXTEST__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Discount</field>
         <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
@@ -1298,97 +1298,4 @@
     </tabVisibilities><tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities><userPermissions>
-        <enabled>true</enabled>
-        <name>AllowUniversalSearch</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>AllowViewKnowledge</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ApexRestServices</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ApiEnabled</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>AssignTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterEditOwnPost</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterFileLink</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInternalUser</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInviteExternalUsers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterOwnGroups</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ContentWorkspaces</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeFilters</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>CreateCustomizeReports</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>CreateTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditOppLineItemUnitPrice</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EditTopics</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ExportReport</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>LightningConsoleAllowedForUser</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>LightningExperienceUser</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>RunReports</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SendSitRequests</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SubmitMacrosAllowed</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeToLightningReports</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewHelpLink</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewRoles</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewSetup</name>
-    </userPermissions></Profile>
+    </tabVisibilities></Profile>
