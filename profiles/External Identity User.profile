@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><loginIpRanges>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><loginIpRanges>
         <endAddress>80.5.216.255</endAddress>
         <startAddress>80.5.216.1</startAddress>
-    </loginIpRanges><userLicense>External Identity</userLicense><applicationVisibilities>
+    </loginIpRanges><userLicense>External Identity</userLicense><applicationVisibilities xmlns="http://soap.sforce.com/2006/04/metadata">
         <application>Charitable</application>
         <default>false</default>
         <visible>false</visible>
@@ -47,6 +47,10 @@
         <visible>false</visible>
     </applicationVisibilities><applicationVisibilities>
         <application>standard__Sites</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities><applicationVisibilities>
+        <application>standard__LightningInstrumentation</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities><fieldPermissions>

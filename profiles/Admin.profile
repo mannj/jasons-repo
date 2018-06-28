@@ -67,6 +67,10 @@
         <application>standard__Sites</application>
         <default>false</default>
         <visible>true</visible>
+    </applicationVisibilities><applicationVisibilities>
+        <application>standard__LightningInstrumentation</application>
+        <default>false</default>
+        <visible>true</visible>
     </applicationVisibilities><fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -1119,6 +1123,22 @@
         <editable>true</editable>
         <field>Account.NewFieldName__c</field>
         <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.HigherEd__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.LovelyField__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.MyLovelyField__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.MyNewField__c</field>
+        <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
         <recordType>Account.NewRecord</recordType>
@@ -1757,4 +1777,7 @@
     </userPermissions><userPermissions>
         <enabled>true</enabled>
         <name>WorkCalibrationUser</name>
+    </userPermissions><userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeDashboardToOtherUsers</name>
     </userPermissions></Profile>
