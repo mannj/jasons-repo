@@ -2,12 +2,14 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>Vehicle__c</defaultLandingTab>
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Garage</label>
-    <tab>standard-Chatter</tab>
-    <tab>standard-File</tab>
-    <tab>Vehicle__c</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>Candidate__c</tab>
-    <tab>Tab_Label</tab>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>Vehicle__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Candidate__c</tabs>
+    <tabs>Tab_Label</tabs>
 </CustomApplication>
