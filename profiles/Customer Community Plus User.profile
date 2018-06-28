@@ -1030,6 +1030,10 @@
         <editable>true</editable>
         <field>Account.LovelyField__c</field>
         <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Checkbox__c</field>
+        <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
         <recordType>Account.NewRecord</recordType>
