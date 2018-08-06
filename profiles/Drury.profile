@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><loginIpRanges>
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><loginIpRanges>
         <endAddress>80.5.216.255</endAddress>
         <startAddress>80.5.216.1</startAddress>
     </loginIpRanges><userLicense>Salesforce</userLicense><applicationVisibilities xmlns="http://soap.sforce.com/2006/04/metadata">
@@ -160,14 +160,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.Site</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.TEST2__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.TEST__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><description>Marketing custom description for Gearset</description><userLicense>Salesforce</userLicense><applicationVisibilities>
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><description>Marketing custom description for Gearset</description><userLicense>Salesforce</userLicense><applicationVisibilities>
         <application>Charitable</application>
         <default>false</default>
         <visible>false</visible>
@@ -161,14 +161,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Account.Site</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.TEST2__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.TEST__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
