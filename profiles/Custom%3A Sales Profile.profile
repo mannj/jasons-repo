@@ -1389,6 +1389,11 @@
         <field>Account.MyNewNumberField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Mathworks__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
         <recordType>Account.NewRecord</recordType>
