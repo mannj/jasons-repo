@@ -1,1 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata"><description>TEST PERM SET</description><hasActivationRequired>false</hasActivationRequired><label>ViewAllData</label></PermissionSet>
