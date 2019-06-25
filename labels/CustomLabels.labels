@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>My_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>My Custom Label</shortDescription>
+        <value>This is the custom label</value>
+    </labels>
+</CustomLabels>

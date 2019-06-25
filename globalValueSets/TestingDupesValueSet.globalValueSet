@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Agrigento</fullName>
+        <default>false</default>
+        <label>Agrigento</label>
+    </customValue>
+    <customValue>
+        <fullName>Aguascalientes</fullName>
+        <default>false</default>
+        <label>Aguascalientes</label>
+    </customValue>
+    <description>Testing for duplication deployment errors with value sets</description>
+    <masterLabel>TestingDupesValueSet</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
